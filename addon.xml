@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.pysocks"
+       name="PySocks"
+       version="1.6.8"
+       provider-name="Anorov (anorov.vorona@gmail.com)">
+  <requires>
+    <import addon="xbmc.python"
+             version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">A SOCKS proxy client and wrapper for Python</summary>
+    <description lang="en_GB">PySocks lets you send traffic through SOCKS and HTTP proxy servers. It is a modern fork of SocksiPy with bug fixes and extra features.</description>
+    <platform>all</platform>
+    <license>BSD</license>
+    <news>
+## [1.6.8] - 2017-12-21
+- Remove support for EOL Python 3.3
+
+## [1.6.7] - 2017-03-22
+- Make SocksiPy legacy functions kwarg-compatible. See issue [#71](https://github.com/Anorov/PySocks/pull/71).
+- Use setuptools in setup.py to support wheel. See issue [#73](https://github.com/Anorov/PySocks/pull/73).
+- Test and logging enhancements
+
+## [1.6.6] - 2017-01-29
+- Full test suite finally added
+- Travis CI enabled for project
+    </news>
+    <source>https://github.com/Anorov/PySocks</source>
+    <website>https://github.com/Anorov/PySocks</website>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
